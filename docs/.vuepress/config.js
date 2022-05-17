@@ -5,6 +5,7 @@ module.exports = {
   //description: 'Just playing around',
   host: 'localhost',
   port: '8090',
+  base:'/online_notes/',
   theme: defaultTheme({
     navbar: [
       // 控制元素何时被激活
