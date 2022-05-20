@@ -10,40 +10,51 @@ module.exports = {
     navbar: [
       // 控制元素何时被激活
       {
-        text: '数据库课程',
+        text: '基础课程笔记',
+        link: '/CSclass/README.md',
         children: [
           {
-            text: '笔记首页',
-            link: '/CSclass-DB/',
+            text: '数据库',
+            link: '/CSclass/CSclass_DB/',
             // 该元素将一直处于激活状态
-            activeMatch: '/CSclass-DB/',
+            activeMatch: '^/CSclass/CSclass_DB/',
           },
+        ],
+      },
+      {
+        text: '算法',
+        link: '/Algorithm/README.md',
+        children: [
           {
-            text: '笔记',
-            children: [
-            {
-                text: '第一课',
-                link: '/CSclass-DB/哈工大DB-第1讲初步认识数据库11.html',
-                // 该元素将一直处于激活状态
-                activeMatch: '^(/CSclass-DB/哈工)',
-            },
-            {
-                text: '第二课',
-                link: '/CSclass-DB/哈工大DB-第1讲初步认识数据库.md',
-                // 该元素将一直处于激活状态
-                activeMatch: '^(/CSclass-DB/哈工)',
-            },
-            ],
-            // 该元素在当前路由路径是 /foo/ 开头时激活
-            // 支持正则表达式
-            activeMatch: '^(/CSclass-DB/哈工)',
+            text: '动态规划',
+            link: '/Algorithm/',
+            // 该元素将一直处于激活状态
+            activeMatch: '^/Algorithm/',
           },
         ],
       },
     ],
+    sidebar: {
+      '/CSclass/CSclass_DB/': [
+        {
+          text: '数据库课程笔记',
+          collapsible: true,
+          sidebarDepth: 1,
+          children: ['/CSclass/CSclass_DB/README.md', '/CSclass/CSclass_DB/哈工大DB-第1讲初步认识数据库.md'],
+        },
+      ],
+      '/Algorithm/': [
+        {
+          text: '算法学习笔记',
+          collapsible: true,
+          sidebarDepth: 1,
+          children: ['/Algorithm/README.md', '/Algorithm/动态规划.md'],
+        },
+      ],
+    },
   }),
   themeConfig: {
-    displayAllHeaders: true, // 默认值：false
+    displayAllHeaders: false, // 默认值：false
     logo: '../homepage_resource/homepage.png'
   },
 }
