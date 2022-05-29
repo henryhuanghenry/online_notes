@@ -1,5 +1,4 @@
-const { defaultTheme } = require('vuepress')
-const { mdEnhancePlugin } = require('vuepress-plugin-md-enhance');
+const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
   title: 'Yusheng Huang\'s page',
@@ -56,12 +55,6 @@ module.exports = {
   }),
   themeConfig: {
     displayAllHeaders: false, // 默认值：false
-    logo: '../homepage_resource/homepage.png',
+    logo: '../homepage_resource/homepage.png'
   },
-  plugins: [
-    mdEnhancePlugin({
-      // 启用 TeX 支持
-      tex: true,
-    }),
-  ],
-};
+}

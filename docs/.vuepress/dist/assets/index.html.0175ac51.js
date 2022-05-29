@@ -1,0 +1,1 @@
+const e={key:"v-476737c0",path:"/CSclass/",title:"CSclass-DB",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653057923e3,contributors:[{name:"henryhuang",email:"henryhuanghenry@outlook.com",commits:1}]},filePathRelative:"CSclass/README.md"};export{e as data};
