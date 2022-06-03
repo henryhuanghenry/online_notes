@@ -1,0 +1,27 @@
+const navs = [
+  {
+    text: "首页",
+    link: "/"
+  },
+ 
+  {
+    text: "前端",
+    items: [
+      { text: "CSS", link: "/fontend/css/" },
+      { text: "JavaScript", link: "/fontend/js/" },
+      { text: "开发工具", link: "/fontend/tools/" }
+    ]
+  },
+ 
+  {
+    text: "小程序",
+    items: [
+      { text: "微信小程序", link: "/wechat/minprogram/" },
+      { text: "云开发", link: "/wechat/cloudev/" }
+    ]
+  },
+ 
+  { text: "关于我", link: "/about/" }
+];
+ 
+module.exports = navs;
