@@ -5,7 +5,7 @@
   - GPA: 4.0/4.0
 - 2017-2021  University of Electronic Science and Technology of China (UESTC)  
   - Bachelor degree -- Major: Communication engineering
-  - GPA: 3.94/4.0, Rank: 10/182
+  - GPA: 3.92/4.0, Rank: 10/180
 
 
 
