@@ -6,7 +6,7 @@ module.exports = [
         [
             {
                 text: '数据库',
-                link: '/CSclass/CSclass_DB/',
+                link: '/CSclass/CSclass_DB/README.md',
                 // 该元素将一直处于激活状态
                 activeMatch: '^/CSclass/CSclass_DB/',
             },
@@ -15,12 +15,19 @@ module.exports = [
     {
         text: '算法',
         link: '/Algorithm/README.md',
-        children: [
-        {
-            text: '动态规划',
-            link: '/Algorithm/',
-            // 该元素将一直处于激活状态
-            activeMatch: '^/Algorithm/',
-        },
-    ],
-}]
+        activeMatch: '^/Algorithm/',
+    },
+    {
+        text: 'AI',
+        link: '/AI/README.md',
+        children: 
+        [
+            {
+                text: '基础',
+                link: '/AI/基础/README.md',
+                // 该元素将一直处于激活状态
+                activeMatch: '^/AI/基础/',
+            },
+        ],
+    },
+]
