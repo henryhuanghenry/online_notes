@@ -23,12 +23,6 @@ module.exports = {
             sidebarDepth: 1,
             children: ['/Algorithm/README.md', '/Algorithm/动态规划.md'],
         },
-        {
-            text: '算法学习笔记',
-            collapsible: true,
-            sidebarDepth: 1,
-            children: ['/Algorithm/README.md', '/Algorithm/动态规划.md'],
-        },
     ],
     '/AI/': 
     [
