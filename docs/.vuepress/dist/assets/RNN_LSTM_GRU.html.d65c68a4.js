@@ -1,1 +1,0 @@
-const t={key:"v-b50b085a",path:"/AI/RNN_LSTM_GRU.html",title:"RNN\u3001LSTM\u3001GRU",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"0.\u8D44\u6599\u7F51\u5740\uFF1A",slug:"_0-\u8D44\u6599\u7F51\u5740",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"AI/RNN_LSTM_GRU.md"};export{t as data};
