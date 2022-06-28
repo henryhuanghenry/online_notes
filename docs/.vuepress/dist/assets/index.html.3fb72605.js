@@ -1,0 +1,1 @@
+const t={key:"v-613c9038",path:"/Programming/python/",title:"Python\u5B66\u4E60",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"Programming/python/README.md"};export{t as data};

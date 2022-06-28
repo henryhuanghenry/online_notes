@@ -30,4 +30,17 @@ module.exports = [
             },
         ],
     },
+    {
+        text: '编程',
+        link: '/Programming/README.md',
+        children: 
+        [
+            {
+                text: '基础',
+                link: '/Programming/python/README.md',
+                // 该元素将一直处于激活状态
+                activeMatch: '^/Programming/python/',
+            },
+        ],
+    },
 ]
