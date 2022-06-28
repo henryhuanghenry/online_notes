@@ -21,7 +21,10 @@ module.exports = {
             text: '算法学习笔记',
             collapsible: true,
             sidebarDepth: 1,
-            children: ['/Algorithm/README.md', '/Algorithm/动态规划.md'],
+            children: fs
+            .readdirSync(path.resolve(__dirname, '../.././Algorithm/'))
+            .filter(f => f != 'pic') //此处是看API，返回的是一个string数组，因此我们可以用filter方法过滤掉不想要的文件夹
+            .map(f => '/Algorithm/' + f) // 此处读取文件的代码是启发于https://github.com/vuepress/vuepress-next/issues/883
         },
     ],
     '/AI/': 
