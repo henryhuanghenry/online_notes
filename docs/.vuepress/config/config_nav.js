@@ -28,6 +28,12 @@ module.exports = [
                 // 该元素将一直处于激活状态
                 activeMatch: '^/AI/基础/',
             },
+            {
+                text: 'NLP',
+                link: '/AI/NLP/README.md',
+                // 该元素将一直处于激活状态
+                activeMatch: '^/AI/NLP/',
+            },
         ],
     },
     {
