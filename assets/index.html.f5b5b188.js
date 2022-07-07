@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-421ca19a","path":"/CSclass/CSclass_DB/","title":"CSclass-DB\u7B14\u8BB0\u9996\u9875","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1654227104000,"contributors":[{"name":"henryhuang","email":"henryhuanghenry@outlook.com","commits":2}]},"filePathRelative":"CSclass/CSclass_DB/README.md"}');export{a as data};
