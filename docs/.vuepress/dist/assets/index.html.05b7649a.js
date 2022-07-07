@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as n,a as e,b as o}from"./app.2e2caef4.js";const r={},c=e("h1",{id:"python\u5B66\u4E60",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python\u5B66\u4E60","aria-hidden":"true"},"#"),o(" Python\u5B66\u4E60")],-1),s=[c];function _(d,h){return a(),n("div",null,s)}var l=t(r,[["render",_],["__file","index.html.vue"]]);export{l as default};
